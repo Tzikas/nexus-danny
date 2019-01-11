@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      The following 2 meta tags *must* come first in the <head>
+      to consistently ensure proper document rendering.
+      Any other head element should come *after* these tags.
+    -->
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Icon in the highest resolution we need it for -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" sizes="192x192" />
+
+    <!-- Points to an external stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <!-- Name of web application (only should be used if the website is used as an app) -->
+    <meta name="application-name" content="Joinedapp" />
+
+    <!-- Allows control over how referrer information is passed -->
+    <meta name="referrer" content="no-referrer" />
+
+    <!-- Theme Color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#005DFF" />
+
+    <!-- Set the document's title -->
+    <title>Joinedapp</title>
+
+    <!-- Icon -->
+    <style>
+      /* Reset */
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      a,
+      a:active,
+      a:hover,
+      a:link,
+      a:visited {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 100%;
+      }
+
+      body {
+        -webkit-overflow-scrolling: touch;
+        background-color: #ffffff;
+        color: #000f19;
+        font-family: 'Maison Neue', -apple-system, BlinkMacSystemFont, 'Roboto',
+          'Helvetica', sans-serif;
+        font-size: 1.4rem;
+        letter-spacing: 0;
+        line-height: 2rem;
+      }
+
+      button,
+      input,
+      textarea {
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        margin: 0;
+        padding: 0;
+      }
+
+      figure {
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-size: 10px;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+      }
+
+      ol,
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      /* Fonts */
+
+      @font-face {
+        font-family: 'Maison Neue';
+        font-style: normal;
+        font-weight: normal;
+        src: url('/fonts/MaisonNeue-Book.ttf') format('truetype'),
+          url('/fonts/MaisonNeue-Book.woff') format('woff'),
+          url('/fonts/MaisonNeue-Book.woff2') format('woff2');
+      }
+
+      @font-face {
+        font-family: 'Maison Neue';
+        font-style: normal;
+        font-weight: 500;
+        src: url('/fonts/MaisonNeue-Medium.ttf') format('truetype'),
+          url('/fonts/MaisonNeue-Medium.woff') format('woff'),
+          url('/fonts/MaisonNeue-Medium.woff2') format('woff2');
+      }
+
+      @font-face {
+        font-family: 'Maison Neue';
+        font-style: normal;
+        font-weight: 600;
+        src: url('/fonts/MaisonNeue-Demi.ttf') format('truetype'),
+          url('/fonts/MaisonNeue-Demi.woff') format('woff'),
+          url('/fonts/MaisonNeue-Demi.woff2') format('woff2');
+      }
+
+      /* App */
+
+      #app {
+        position: relative;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- React DOM element application -->
+    <section id="app"></section>
+  </body>
+</html>
